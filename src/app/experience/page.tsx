@@ -16,7 +16,14 @@ const Experience = () => {
                     logic for log parsing, reducing time taken to render container logs by 70x.
                     `}
                     tech={["Typescript", "React", "Docker"]}
-                    links={[]}
+                    links={[{
+                        descriptor: "Github",
+                        link: "https://github.com/open-source-labs/docketeer-extension",
+                    },
+                {
+                    descriptor: "Website",
+                    link: "https://docketeer.io/"
+                }]}
                     />
                 </li>
                 <li>
@@ -39,7 +46,10 @@ const Experience = () => {
                     company="Icahn School of Medicine"
                     blurb={`I built a pipeline in Snakemake for processing RNAseq data, reducing the number of manual
                     steps by 80%. Using Python and R, I also analyzed and visualized the results. See below for the publication!`}
-                    links={[]}
+                    links={[{
+                        descriptor: "Publication",
+                        link: "https://www.cell.com/cell/fulltext/S0092-8674(23)00041-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867423000417%3Fshowall%3Dtrue"
+                    }]}
                     tech={["Python", "R", "Bash", "Snakemake"]}
                     />
                 </li>

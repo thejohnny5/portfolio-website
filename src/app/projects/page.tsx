@@ -40,6 +40,19 @@ const codeForgeTechStack = [
 const codeFrogeAbout = `
 A learning website where users can upload coding resources, tutorials, etc.`
 
+const codeBotTechStack = [
+  { name: 'Typescript', logo: 'https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white'},
+  { name: 'React.js', logo: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'},
+  { name: 'Node.js', logo: 'https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white'},
+  { name: 'Express.js', logo: 'https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB'},
+  { name: 'PostgreSQL', logo: 'https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white'},
+  { name: 'Webpack', logo: 'https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black'},
+];
+
+const codeBotBlurb = `
+Just a fun little project using LangChain to create a ChatBot with memory. For the app, used GPT-3.5 and stored conversation history
+with context pertanent to coding.`
+
 const MyProjectsPage = () => {
   return (
     <div className="max-w-4xl mx-auto">
@@ -57,10 +70,16 @@ const MyProjectsPage = () => {
       />
       <ProjectComponent
         title="CodeForge"
-        githubLink=""
+        githubLink="https://github.com/StabRabbitdoesCodeforge/codeforge"
         techStack={codeForgeTechStack}
         details={codeFrogeAbout}
       />
+      <ProjectComponent
+        title="ChatBot"
+        githubLink="https://github.com/the-coding-solution/code-bot/tree/dev"
+        techStack={codeBotTechStack}
+        details={codeBotBlurb}
+        />
     </div>
   );
 };
