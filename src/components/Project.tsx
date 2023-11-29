@@ -2,7 +2,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const ProjectComponent = ({ title, githubLink, techStack, details }: any) => {
+interface TechStack {
+  name: string;
+  logo: string;
+}
+interface ProjectProp {
+  title: string;
+  githubLink: string;
+  techStack: TechStack[];
+  details: string;
+}
+
+const ProjectComponent = ({ title, githubLink, techStack, details }: ProjectProp) => {
   return (
     <div className="border border-gray-200 shadow-lg rounded-lg p-5 space-y-4">
       <h2 className="text-2xl font-bold">{title}</h2>

@@ -23,7 +23,7 @@ const About = () => {
                     <br />
                     <p>My career path shifted over time, moving from lab work to full-blown software development. This change led me to work on some cool Open Source projects, like <a href="#Docketeer (Open Source Product)" className="text-teal-300 hover:text-teal-100">Docketeer</a>.</p>
                     <br />
-                    <p>When I'm not coding, I keep things balanced with physical and creative hobbies. I'm into Muay Thai and playing guitar – they're great ways to unwind and balance out my work life.</p>
+                    <p>When I&#39m not coding, I keep things balanced with physical and creative hobbies. I&#39m into Muay Thai and playing guitar – they&#39re great ways to unwind and balance out my work life.</p>
                     <br />
                 </div>
             </div>
