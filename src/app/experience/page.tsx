@@ -2,9 +2,8 @@ import ExperienceComponent from "@/components/ExperienceComp";
 import ResumeLink from "@/components/ResumeLink";
 const Experience = () => {
     return (
-        <div>
-            <ul>
-                <li>
+        <div className="max-w-4xl mx-auto">
+            
                 <ExperienceComponent 
                     dates="October 2023 - Present"
                     title="Software Engineer"
@@ -25,8 +24,7 @@ const Experience = () => {
                     link: "https://docketeer.io/"
                 }]}
                     />
-                </li>
-                <li>
+              
                 <ExperienceComponent 
                     dates="November 2021 - May 2023"
                     title="Research Associate II"
@@ -38,8 +36,7 @@ const Experience = () => {
                     tech={["Python", "Bash", "PostgreSQL", "R", "AWS S3"]}
                     links={[]}
                     />
-                </li> 
-                <li>
+               
                 <ExperienceComponent 
                     dates="August 2020 - October 2021"
                     title="Research Assistant III"
@@ -52,8 +49,7 @@ const Experience = () => {
                     }]}
                     tech={["Python", "R", "Bash", "Snakemake"]}
                     />
-                </li>
-                <li>
+              
                 <ExperienceComponent 
                     dates="September 2018 - May 2020"
                     title="Research Assistant"
@@ -63,11 +59,9 @@ const Experience = () => {
                     tech={["Python", "Matlab"]}
                     links={[]}
                     />
-                </li>
-                <li>
+            
                     <ResumeLink />
-                </li>
-            </ul>
+               
            
         </div>
     )
