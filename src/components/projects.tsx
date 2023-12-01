@@ -1,5 +1,5 @@
 // Usage in a page or another component
-import ProjectComponent from '../../components/Project';
+import ProjectComponent from './Project';
 
 const techStack = [
   { name: 'GO', logo: 'https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' },

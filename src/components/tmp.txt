@@ -1,0 +1,17 @@
+<div className={`fixed inset-y-0 left-0 z-30 transform transition-transform duration-300 ease-in-out ${open ? 'translate-x-0 w-full' : '-translate-x-full w-0'} md:relative md:translate-x-0 md:w-64`}>
+{open ? 
+<Sidebar toggleOpen={toggleOpen} open={open}/> 
+: 
+<nav>
+  <button className="p-4" onClick={()=>toggleOpen()}>
+      {/* Replace with an icon or text to open/close sidebar */}
+      <svg viewBox="0 0 100 80" width="30" height="30" className='fill-white'>
+          <rect width="100" height="20"></rect>
+          <rect y="30" width="100" height="20"></rect>
+          <rect y="60" width="100" height="20"></rect>
+      </svg>
+  </button>
+</nav>
+
+}
+</div>

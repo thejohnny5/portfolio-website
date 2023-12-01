@@ -2,16 +2,18 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="flex items-start space-x-8 max-w-8xl mx-auto">
-            <div className="rounded-full overflow-hidden w-192 h-192">
-                <Image
-                    src="/headshot.jpg"
-                    alt="Jonathan"
-                    width={768}
-                    height={768}
-                    priority
-                /> 
-            </div>
+    <div className="max-w-4xl mx-auto flex flex-col md:flex-flex-row">
+
+    <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8 max-w-8xl mx-auto">
+        <div className="rounded-full overflow-hidden w-192 h-192 md:w-192 md:h-192"> {/* Adjust size as needed */}
+            <Image
+                src="/headshot.jpg"
+                alt="Jonathan"
+                width={192}  // Corresponds to the size of the container
+                height={192} // Corresponds to the size of the container
+                priority
+            /> 
+        </div>
             <div>
                 <h1 className="text-2xl font-bold mb-4">Jonathan Gray</h1>
                 <div>
@@ -30,6 +32,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
