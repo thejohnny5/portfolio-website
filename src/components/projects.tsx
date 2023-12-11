@@ -18,14 +18,14 @@ Some notable features include Google OAuth as the login feature, session managme
 transition between excel and using the app. Currently still in the testing phase.
 `;
 
-const CLearnStack = [
+const challengeTechstack = [
     { name: 'C', logo: 'https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white'},
     { name: 'C++', logo: 'https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white'}
 ]
 
-const clearnDetail = `
-A collection of projects where I key programming concepts from scratch in C and/or C++, including allocators (malloc/calloc/realloc/free), 
-a simple unix shell, redis, and more.
+const challenges = `
+A collection of projects where I build tools from scratch in C/C++. Such as wc, cut, a file compressor using 
+a HuffmanTree, and more.
 `
 
 const codeForgeTechStack = [
@@ -63,10 +63,10 @@ const MyProjectsPage = () => {
         details={projectDetails}
       />
       <ProjectComponent 
-        title="CLearn"
-        githubLink="https://github.com/thejohnny5/clearn"
-        techStack={CLearnStack}
-        details={clearnDetail}
+        title="Challenges"
+        githubLink="https://github.com/thejohnny5/Challenges"
+        techStack={challengeTechstack}
+        details={challenges}
       />
       <ProjectComponent
         title="CodeForge"
