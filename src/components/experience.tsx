@@ -54,8 +54,8 @@ const Experience = () => {
                     dates="September 2018 - May 2020"
                     title="Research Assistant"
                     company="University of South Carolina"
-                    blurb={`Where it all began! I built a Matlab app for processing of signal data from a biological nanopore and
-                    used python to visualize the results.`}
+                    blurb={`In undergrad, I worked in Dr. Chang Liu's lab on nanopore technology in Assay development research utilizing Biological Nanopore technology. During my tenure here,
+                    I built a Matlab app for processing of signal data from the biological nanopore and used Python to visualize the results.`}
                     tech={["Python", "Matlab"]}
                     links={[]}
                     />

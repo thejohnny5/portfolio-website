@@ -8,7 +8,7 @@ const About = () => {
         <div className="rounded-full overflow-hidden w-192 h-192 md:w-192 md:h-192"> {/* Adjust size as needed */}
             <Image
                 src="/headshot.jpg"
-                alt="Jonathan"
+                alt="JonathanGray"
                 width={192}  // Corresponds to the size of the container
                 height={192} // Corresponds to the size of the container
                 priority
@@ -19,9 +19,9 @@ const About = () => {
                 <div>
                     <div>
                     <h2 className="text-xl font-semibold mb-2">Education</h2>
-                        <p className="mb-1">CodeSmith Software Engineering Immersive</p>
+                        <p className="mb-1">CodeSmith Software Engineering Immersive (2023)</p>
                         <br />
-                        <p className="mb-1">BS Biomedical Engineering (Minor Chemistry)</p>
+                        <p className="mb-1">BS Biomedical Engineering Minor Chemistry (2016-2020)</p>
                         <p className="mb-4">University of South Carolina</p>
                     </div>
                     <br />
